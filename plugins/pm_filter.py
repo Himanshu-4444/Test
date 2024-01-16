@@ -81,8 +81,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/maggi_request>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://telegram.me/maggi_request")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+p2fj-s44ju1lZDc1>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+p2fj-s44ju1lZDc1")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -141,7 +141,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
     else:
         btn = []
@@ -157,7 +157,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
     try:
         if settings['max_btn']:
@@ -373,7 +373,7 @@ async def filter_quality_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
     else:
         btn = []
@@ -389,7 +389,7 @@ async def filter_quality_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
 
     if offset != "":
@@ -535,7 +535,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
     else:
         btn = []
@@ -551,7 +551,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
 
     if offset != "":
@@ -720,7 +720,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
     else:
         btn = []
@@ -736,7 +736,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://t.me/ClipmateMoviesAssistantbot")
         ])
         
     offset = 0
@@ -1348,7 +1348,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+KzbVzahVdqQ3MmM1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+p2fj-s44ju1lZDc1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1373,7 +1373,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://telegram.me/requestmovie12345")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+p2fj-s44ju1lZDc1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1778,7 +1778,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tele":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1819,7 +1819,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1835,7 +1835,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "song":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1876,7 +1876,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sticker":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1892,7 +1892,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tamil_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1908,7 +1908,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "english_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1924,7 +1924,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "hindi_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1940,7 +1940,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "telugu_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1956,7 +1956,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "malayalam_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1972,7 +1972,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "urdu_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1988,7 +1988,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "bangladesh_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
 
             await client.edit_message_media(
@@ -2005,7 +2005,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "kannada_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2021,7 +2021,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "gujarati_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/New123459")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ClipmateMoviesAssistantbot")
                   ]]
         
             await client.edit_message_media(
@@ -2189,7 +2189,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegram.me/ClipmateMoviesAssistantbot")
         ])
     else:
         btn = []
@@ -2205,7 +2205,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegra.ph/BUY-P%CA%80%C9%AA%E1%B4%8D%C9%AA%E1%B4%9C%E1%B4%8D-A%E1%B4%85s-F%CA%80%E1%B4%87%E1%B4%87-12-13")
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", url="https://telegram.me/ClipmateMoviesAssistantbot")
         ])
     if offset != "":
         req = message.from_user.id if message.from_user else 0
