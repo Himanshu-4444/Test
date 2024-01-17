@@ -11,12 +11,12 @@ Pʀɪᴍɪᴜᴍ Member Aᴅs Fʀᴇᴇ
 
 ɪᴛ ɪs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/ClipmateMoviesAssistantbot'></a>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</b>"""
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/ClipmateMoviesAssistantbot'> ▌║█║▌│║▌│║▌║▌█║Visual™ ▌│║▌║▌│║║▌█║▌║█</a></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/ClipmateMoviesAssistantbot'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/ClipmateMoviesAssistantbot'> ▌║█║▌│║▌│║▌║▌█║Visual™ ▌│║▌║▌│║║▌█║▌║█</a></b>"""
     
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/ClipmateMoviesAssistantbot>Visual</a>
